@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lifecycleMappingMetadata>
+  <pluginExecutions>
+    <pluginExecution>
+      <pluginExecutionFilter>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>openjpa-maven-plugin</artifactId>
+        <versionRange>[1.0,)</versionRange>
+        <goals>
+          <goal>enhance</goal>
+        </goals>
+      </pluginExecutionFilter>
+      <action>
+        <configurator>
+          <id>com.googlecode.m2e.connectors.openjpa.OpenJPAConfigurator</id>
+        </configurator>
+      </action>
+    </pluginExecution>
+    <pluginExecution>
+      <pluginExecutionFilter>
+        <groupId>org.apache.openjpa</groupId>
+        <artifactId>openjpa-maven-plugin</artifactId>
+        <versionRange>[2.2.0,)</versionRange>
+        <goals>
+          <goal>enhance</goal>
+        </goals>
+      </pluginExecutionFilter>
+      <action>
+        <configurator>
+          <id>com.googlecode.m2e.connectors.openjpa.OpenJPAConfigurator</id>
+        </configurator>
+      </action>
+    </pluginExecution>
+  </pluginExecutions>
+</lifecycleMappingMetadata>

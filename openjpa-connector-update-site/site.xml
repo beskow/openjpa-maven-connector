@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.googlecode.m2e.connectors.openjpa.feature_1.2.0.20130315.jar" id="com.googlecode.m2e.connectors.openjpa.feature" version="1.2.0.20130315">
+      <category name="m2e-connectors"/>
+   </feature>
+   <feature url="features/com.googlecode.m2e.connectors.openjpa.feature_1.0.1.20120511.jar" id="com.googlecode.m2e.connectors.openjpa.feature" version="1.0.1.20120511">
+      <category name="m2e-connectors"/>
+   </feature>
+   <category-def name="m2e-connectors" label="Maven Connectors"/>
+</site>

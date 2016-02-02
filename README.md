@@ -5,4 +5,4 @@ Executes the enhance goal, then refreshes the target folder to prevent workspace
 
 Download the connector plugin using the Eclipse update site at
 
-https://github.com/beskow/openjpa-maven-connector/tree/master/openjpa-connector-update-site
+https://github.com/beskow/openjpa-maven-connector/raw/master/openjpa-connector-update-site
